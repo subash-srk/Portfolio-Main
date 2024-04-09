@@ -1,0 +1,110 @@
+.background{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding: 120px;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.profile-img{
+    height: 150px;
+    border-radius: 50%;
+}
+h2{
+    font-family:sans-serif;
+}
+
+/* PROJECTS */
+.btn-group button{
+  font-size: large;
+  height: 50px;
+  width: 90px;
+  color: white;
+}
+
+/* SKILLS */
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+.box-container{
+  padding: 1.5rem;
+  border-color: black;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  margin: 15px;
+  background-color: aliceblue;
+}
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+/* Overlay */
+.overlay {
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms; 
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup img{
+  float: left;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.newover{
+  opacity: .2;
+  background-color: black;
+}
+
+.no-overlay{
+  opacity: 1;
+}
