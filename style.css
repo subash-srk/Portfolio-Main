@@ -3,6 +3,22 @@
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
     padding: 120px;
+    padding-top: 25px;
+    color: rgb(0, 0, 0);
+}
+.top-header{
+  padding-bottom: 125px;
+}
+.header-text h5{
+  font-weight:normal;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 700px){
+  .background{
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
 }
 @keyframes gradient-animation {
     0% {
