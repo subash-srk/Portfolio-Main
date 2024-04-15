@@ -64,7 +64,16 @@ h2{
 .about-details-container {
   display: flex;
 }
+.total-container{
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content:center;
+}
 .box-container{
+  width: 500px;
   padding: 1.5rem;
   border-color: black;
   border-radius: 2rem;
@@ -72,14 +81,13 @@ h2{
   border-color: rgb(163, 163, 163);
   text-align: center;
   margin: 15px;
-  background-color: aliceblue;
 }
 .article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1rem;
   justify-content: space-around;
 }
 
