@@ -28,10 +28,16 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @media screen and (max-width: 700px){
-  .background{
+  .banner-cover{
     padding-left: 0px;
     padding-right: 0px;
   } 
+  #header{
+    visibility: hidden;
+  }
+  .top-header{
+    padding-bottom: 0px;
+  }
 }
 @keyframes gradient-animation {
     0% {
@@ -153,4 +159,17 @@ h2{
 
 .no-overlay{
   opacity: 1;
+}
+
+article img{
+  width: 100px;
+}
+
+@media screen and (max-width: 700px){
+  article img{
+    width: 70px;
+  }
+  #contact article img{
+    width: 50px;
+  }  
 }
