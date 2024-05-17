@@ -164,6 +164,9 @@ h2{
 article img{
   width: 100px;
 }
+#contact article img{
+  width: 60px;
+} 
 
 @media screen and (max-width: 700px){
   article img{
