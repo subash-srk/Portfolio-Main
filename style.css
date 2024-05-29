@@ -180,3 +180,28 @@ article img{
     width: 50px;
   }  
 }
+
+.banner-text h1{
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  font-size: 55px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner-text p{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+  .banner-text h1{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  #contact article img{
+    width: 50px;
+  }  
+}
